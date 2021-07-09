@@ -1,0 +1,140 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    margin: 0px;
+    text-align: center;
+    font-family: sans-serif;
+    background: url(./assets/gradienta-ix_kUDzCczo-unsplash.jpg);
+    background-size: cover;
+  }
+  ul {
+      margin-left: -45px;
+  }
+  li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 1rem;
+  }
+  .main {
+      width: 800px;
+      height: 620px;
+      background-color: #fafafa ;
+      margin: 0 auto;
+      padding-top: 20px;
+      border-radius: 10px;
+      border: 1px solid #eeeeee;
+  }
+  .img{
+      background-image: url(./assets/Eaa.jpg);
+      background-color: #eaeaea;
+      background-size: cover;
+      border-radius: 100px;
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+      border: 1px solid #eaeaea;
+  }
+  h1 {
+      text-align: center;
+      font-size: 30px;
+      margin: 0;
+      font-weight: bold;
+      color: #6944ff;
+      margin-bottom: 10px;
+      margin-top: 10px;
+  }
+  .text {
+      text-align: center;
+      font-size: 15px;
+      margin: 0;
+      color: #89959e;
+  }
+  .isi {
+      text-align: left;
+      margin-left: 15rem;
+      margin-bottom: 2rem;
+      padding-top: 20px;
+      width: 450px;
+      line-height: 2rem;
+      color: #324e63;
+  }
+  .navbar {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  .wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    background: #63a4ee;
+  }
+  .logo {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #ffffff;
+  }
+  .menu {
+    float: right;
+    background: #63a4ee;
+  }
+  nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #63a4ee;
+    z-index: 1;
+    margin-bottom: 2rem;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  a.tombol {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  a.tombol:hover {
+    background: rgb(20, 214, 20);
+  }
+  footer {
+    width: 100%;
+    margin: auto;
+    line-height: 50px;
+    position: sticky;
+    background: #63a4ee;
+    text-align: center;
+    font-family: "comic sans ms";
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 2rem;
+  }
+
